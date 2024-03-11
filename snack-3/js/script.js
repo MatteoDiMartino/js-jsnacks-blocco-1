@@ -10,7 +10,10 @@ for (let i = 0; i < 6; i++) {
 
     if (putNum % 2 !=0) {
         numFull.push(putNum);
-    }
+        console.log ('il numero è dispari');
+    } else {
+        console.log ('il numero è pari')
+    };
 
     console.log (numFull);
 }

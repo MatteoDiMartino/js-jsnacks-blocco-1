@@ -3,3 +3,7 @@
 //   se è dispari inseriscilo nell’array.
 
 let numFull = [];
+
+for (let i = 0; i < 6; i++) {
+    let putNum = parseInt(prompt('Inserisci un numero'));
+}

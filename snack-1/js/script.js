@@ -10,7 +10,14 @@ for (let i = 1; i < 6; i++) {
     let putNum = parseInt(prompt('Inserisci un numero'));
     console.log (putNum);
 
-    numGroup.push(putNum);
+// se l'array include già il parametro digitato nel prompt dall'utente, quest'ultimo non verrà aggiunto
+
+    if (numGroup.includes(putNum)) {
+       console.log ('il numero è già in lista') 
+    } else {
+        numGroup.push(putNum);
+    }
     console.log (numGroup);
+
 
 }

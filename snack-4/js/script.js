@@ -13,8 +13,8 @@ for (let i = 0; i < 10; i++) {
 
 // sommo in maniera graduale
     result += contentAr;
-    console.log (calc + ' ecco la somma totale');
+    console.log (result + ' ecco la somma totale');
 
-    // let calc2 = calc / 10;
-    // console.log (calc2 + ' ecco la media totale');
+    let result2 = result / 10;
+    console.log (result2 + ' ecco la media totale');
 }

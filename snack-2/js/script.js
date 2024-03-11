@@ -2,6 +2,6 @@
 //   Il programma stampa la somma di tutti i numeri inseriti.
 
 for (let i = 0; i < 5; i++) {
-    let userNum = prompt('Inserisci un numero');
+    let userNum = parseInt(prompt('Inserisci un numero'));
     console.log (userNum);
 }

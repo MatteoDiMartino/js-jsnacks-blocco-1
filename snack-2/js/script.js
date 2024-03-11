@@ -3,5 +3,7 @@
 
 for (let i = 0; i < 5; i++) {
     let userNum = parseInt(prompt('Inserisci un numero'));
-    console.log (userNum);
+
+    let calc = userNum + i;
+    console.log (calc);
 }
